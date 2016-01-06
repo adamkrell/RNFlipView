@@ -21,7 +21,7 @@ RCT_EXPORT_MODULE()
 
 RCT_CUSTOM_VIEW_PROPERTY(side, NSString, RNFlipView)
 {
-  view.side = json ? [RCTConvert NSString:json] : @"front";
+  view._side = json ? [RCTConvert NSString:json] : @"front";
 }
 
 @end
