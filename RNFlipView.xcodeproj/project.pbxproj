@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B663CA901C3DC04100485DEE /* RNFlipView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B663CA8F1C3DC04100485DEE /* RNFlipView.h */; };
 		B663CA921C3DC04100485DEE /* RNFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B663CA911C3DC04100485DEE /* RNFlipView.m */; };
+		B663CA9A1C3DC2B300485DEE /* RNFlipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B663CA991C3DC2B300485DEE /* RNFlipViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B663CA8C1C3DC04100485DEE /* libRNFlipView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNFlipView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B663CA8F1C3DC04100485DEE /* RNFlipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNFlipView.h; sourceTree = "<group>"; };
 		B663CA911C3DC04100485DEE /* RNFlipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFlipView.m; sourceTree = "<group>"; };
+		B663CA981C3DC2A600485DEE /* RNFlipViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNFlipViewManager.h; sourceTree = "<group>"; };
+		B663CA991C3DC2B300485DEE /* RNFlipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFlipViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				B663CA8F1C3DC04100485DEE /* RNFlipView.h */,
 				B663CA911C3DC04100485DEE /* RNFlipView.m */,
+				B663CA981C3DC2A600485DEE /* RNFlipViewManager.h */,
+				B663CA991C3DC2B300485DEE /* RNFlipViewManager.m */,
 			);
 			path = RNFlipView;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B663CA921C3DC04100485DEE /* RNFlipView.m in Sources */,
+				B663CA9A1C3DC2B300485DEE /* RNFlipViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +221,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../react-native/React/** $(SRCROOT)/node_modules/react-native/React/**";
 			};
 			name = Debug;
 		};
@@ -224,6 +231,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../react-native/React/** $(SRCROOT)/node_modules/react-native/React/**";
 			};
 			name = Release;
 		};

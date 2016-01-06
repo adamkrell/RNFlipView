@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RCTView.h"
 
-@interface RNFlipView : NSObject
+@interface RNFlipView : RCTView
+
+/**
+ * Creates a flip transition animation (side = 'front' or 'back').
+ * This makes it look as if a new view was flipped into place,
+ * but the view actually remains the same.
+ */
+@property (nonatomic, assign) NSString *_side;
 
 @end

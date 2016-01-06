@@ -1,0 +1,18 @@
+{
+  "name": "rn_flipview",
+  "version": "0.0.1",
+  "description": "React Native View component with flip animation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/adamkrell/RNFlipView"
+  },
+  "author": "Adam Krell",
+  "license": "MIT",
+  "devDependencies": {
+    "react-native": "^0.17.0"
+  }
+}
