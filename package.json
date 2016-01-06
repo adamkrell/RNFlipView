@@ -1,6 +1,6 @@
 {
   "name": "rn_flipview",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native View component with flip animation.",
   "main": "index.js",
   "scripts": {
